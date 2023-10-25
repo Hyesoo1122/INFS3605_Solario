@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     Button showMap;
+    Button buttonToSections;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -20,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
         showMap = findViewById(R.id.showMap);
 
+        buttonToSections = findViewById(R.id.buttonToSections);
+
         showMap.setOnClickListener(new View.OnClickListener(){
 
             @Override
@@ -28,6 +31,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        buttonToSections.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent (MainActivity.this, QuestionSections.class);
+                startActivity(intent);
+            }
+        });
+
+
 
 
     }
