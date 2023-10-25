@@ -29,6 +29,14 @@
         <activity android:name=".LearningQuestionOne"></activity>
         <activity android:name=".LearningQuestionTwo"></activity>
         <activity android:name=".LearningQuestionThree"></activity>
+        <activity android:name=".InstallationOne"></activity>
+        <activity android:name=".InstallationTwo"></activity>
+        <activity android:name=".InstallationThree"></activity>
+        <activity android:name=".InstallationFour"></activity>
+        <activity android:name=".InstallationFive"></activity>
+        <activity android:name=".InstallationSix"></activity>
+        <activity android:name=".InstallationSeven"></activity>
+        <activity android:name=".InstallationEight"></activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
