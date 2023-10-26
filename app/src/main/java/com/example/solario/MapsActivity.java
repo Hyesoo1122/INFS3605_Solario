@@ -125,7 +125,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     private void fetchSolarData(double latitude, double longitude) {
-        String requiredQuality = "LOW";
+        String requiredQuality = "HIGH";
         String apiKey = "AIzaSyDkjIAxz-UXC5MORy4NZUyc_yxF0-KYAJ0";
 
         Log.e("SolarAPI", "Latitude: " + latitude + ", Longitude: " + longitude);
