@@ -12,7 +12,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="74dp"
         android:text=" What is your expected time frame in installing solar panels?"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -20,8 +20,8 @@
         android:id="@+id/radioButton28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="39dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="45dp"
         android:text="Immediately"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +31,7 @@
         android:id="@+id/radioButton29"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="17dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="50dp"
         android:text="In the next 4 weeks"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -42,8 +42,8 @@
         android:id="@+id/radioButton30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="77dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
         android:text="In the next 3 months"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,8 +53,8 @@
         android:id="@+id/radioButton31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
         android:text="Still exploring options"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,9 +64,19 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="265dp"
-        android:layout_marginTop="602dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="80dp"
         android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -49,12 +49,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton9" />
 
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="402dp" />
-
     <RadioButton
         android:id="@+id/radioButton11"
         android:layout_width="wrap_content"
@@ -78,11 +72,13 @@
         app:layout_constraintTop_toBottomOf="@+id/radioButton11" />
 
     <Button
-        android:id="@+id/nextButtonOne"
+        android:id="@+id/installationButtonOne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="284dp"
-        tools:layout_editor_absoluteY="646dp" />
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="80dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

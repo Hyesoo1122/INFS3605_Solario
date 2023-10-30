@@ -9,8 +9,6 @@
         android:id="@+id/toolbar9"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="7dp"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
@@ -52,7 +50,7 @@
         android:id="@+id/radioButton23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="38dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="34dp"
         android:text="Yes"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,8 +81,8 @@
         android:id="@+id/radioButton25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="27dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
         android:text="4-6 kwh"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
@@ -104,7 +102,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="42dp"
+        android:layout_marginTop="35dp"
         android:text="Not sure yet"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton26" />
@@ -113,9 +111,9 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="283dp"
-        android:layout_marginTop="376dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="80dp"
         android:text="Next"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
