@@ -37,6 +37,8 @@
         <activity android:name=".InstallationSix"></activity>
         <activity android:name=".InstallationSeven"></activity>
         <activity android:name=".InstallationEight"></activity>
+        <activity android:name=".MaintenanceOne"></activity>
+        <activity android:name=".MaintenanceTwo"></activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
