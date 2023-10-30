@@ -36,10 +36,10 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar11"
         android:layout_width="391dp"
-        android:layout_height="wrap_content"
+        android:layout_height="64dp"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="5dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
